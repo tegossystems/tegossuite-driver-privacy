@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy policy for the TegosSuite Driver Android application.">
+    <meta name="color-scheme" content="light">
+    <title>Privacy Policy - TegosSuite Driver</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17243a;
+        --muted: #526174;
+        --brand: #145a8d;
+        --line: #dce4ec;
+        --panel: #f3f7fa;
+        --warning: #fff7e6;
+        --warning-line: #d99a22;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: #edf2f6;
+        color: var(--ink);
+        line-height: 1.65;
+      }
+
+      .page {
+        width: min(100% - 2rem, 880px);
+        margin: 2rem auto;
+        padding: clamp(1.25rem, 5vw, 3.25rem);
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        box-shadow: 0 12px 36px rgb(23 36 58 / 8%);
+      }
+
+      header {
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow {
+        margin: 0 0 .4rem;
+        color: var(--brand);
+        font-size: .78rem;
+        font-weight: 750;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+
+      h1, h2 { line-height: 1.25; }
+      h1 { margin: 0; font-size: clamp(2rem, 6vw, 3rem); }
+      h2 { margin: 2rem 0 .65rem; font-size: 1.3rem; }
+      p { margin: .65rem 0; }
+      ul { padding-left: 1.4rem; }
+      li { margin: .35rem 0; }
+
+      .intro { color: var(--muted); font-size: 1.05rem; }
+
+      .notice {
+        margin: 1.5rem 0;
+        padding: 1rem 1.15rem;
+        background: var(--warning);
+        border-left: 4px solid var(--warning-line);
+        border-radius: 6px;
+      }
+
+      .notice strong { display: block; margin-bottom: .25rem; }
+
+      .details {
+        margin: 1rem 0;
+        padding: 1rem 1.15rem;
+        background: var(--panel);
+        border-radius: 8px;
+      }
+
+      .details p { margin: .25rem 0; }
+      .label { font-weight: 700; }
+      footer {
+        margin-top: 2.5rem;
+        padding-top: 1rem;
+        color: var(--muted);
+        border-top: 1px solid var(--line);
+        font-size: .9rem;
+      }
+
+      a { color: var(--brand); }
+      a:focus-visible { outline: 3px solid #e6a62e; outline-offset: 3px; }
+
+      @media (max-width: 520px) {
+        .page {
+          width: 100%;
+          margin: 0;
+          border: 0;
+          border-radius: 0;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <p class="eyebrow">TegosSuite Driver</p>
+        <h1>Privacy Policy</h1>
+        <p class="intro">Last updated: November 19, 2026</p>
+      </header>
+
+      <div class="notice" role="note">
+        <strong>Publication details need confirmation</strong>
+        Before publishing, the app owner must replace the controller and privacy-contact fields below and confirm the service, retention, and deletion details described in this policy.
+      </div>
+
+      <p>This policy describes information processed by the TegosSuite Driver Android application (the “App”), based on the application code reviewed. The App is intended for drivers using an employer- or business-provided account. The services and features available to you may depend on your organization’s configuration.</p>
+
+      <div class="details">
+        <p><span class="label">Data controller / app publisher:</span> [Confirm the responsible legal entity and postal address]</p>
+        <p><span class="label">Privacy contact:</span> [Add an approved privacy contact email address]</p>
+      </div>
+
+      <h2>Information the App processes</h2>
+      <ul>
+        <li><strong>Account and identity information:</strong> username, account or employee identifier, email address, name, organization/client identifier, role or permissions, and authentication credentials and tokens. Login details are used to authenticate you.</li>
+        <li><strong>Driver and work records:</strong> tours, assigned jobs and stops, vehicle and inspection details, defect descriptions and notes, questionnaire answers, mileage, barcode values, work status, and related identifiers.</li>
+        <li><strong>Location:</strong> latitude and longitude, and associated dates or times. The App can request foreground and background location access. See “Location access” below.</li>
+        <li><strong>Images and signatures:</strong> photos captured for jobs or vehicle checks, names entered with signatures, and drawn signatures. Photos may be resized before being attached to a work record.</li>
+        <li><strong>Device and service information:</strong> Android device identifier, Firebase account/device identifiers, push-notification token, App version and update information, network/request status, and technical diagnostic or error information.</li>
+        <li><strong>Camera-scanned information:</strong> supported barcode or QR-code values when the scanning feature is used.</li>
+      </ul>
+
+      <h2>How information is used</h2>
+      <p>Information is used to sign you in; provide assigned work; record tour, job, and vehicle-check activity; attach photos, signatures, and scanned values to work records; synchronize records when connectivity is available; maintain the session and device connection; deliver configured app updates and notifications; and diagnose service or app failures.</p>
+
+      <h2>Location access</h2>
+      <p>When you start a tour or save a vehicle check, the App requests the device’s current or last-known location and can send its coordinates and a timestamp with that work action to the organization’s configured service.</p>
+      <p>The App also contains a background-location task. When an account is active and notification and background-location permissions are granted, the App requests location updates and stores location coordinates with a timestamp on the device. The reviewed task does not itself send those periodic background samples to a server. Background location is also used by code intended for an arrival reminder; the reviewed arrival-detection and notification-scheduling logic is currently inactive. Your organization should confirm the production behavior and whether this feature is needed.</p>
+      <p>You can manage location permissions in Android settings. If you deny or revoke location access, location-dependent work features may not function fully.</p>
+
+      <h2>Camera, microphone, and notifications</h2>
+      <p>The camera is used to take work-related photos and scan barcodes or QR codes. The Android build requests camera access. The build configuration also requests microphone permission for camera functionality, but the reviewed application code does not show an audio-recording feature. The App requests notification permission for its arrival-reminder setup. Confirm the final Android permission list and remove permissions that are not required.</p>
+
+      <h2>Where information is sent and who may receive it</h2>
+      <ul>
+        <li><strong>Your organization’s configured service:</strong> receives account and work information submitted through the App, including relevant photos, signatures, scanned values, and location accompanying work actions. Your employer or business may make this information available to authorized personnel.</li>
+        <li><strong>Firebase / Google services:</strong> depending on the release configuration, the App uses Firebase Authentication and Realtime Database for sign-in, synchronization, and connection status. Android code also obtains a Firebase Cloud Messaging token. Crash reporting and performance-monitoring code is present. Analytics code records screen and API activity. The Android manifest contains settings that disable Firebase Analytics and Performance collection, while application code also attempts to log events and enable performance collection. Actual transmission in the published build must be verified.</li>
+        <li><strong>Google Maps:</strong> if the Maps feature is enabled by your organization, the App can send coordinates for reverse geocoding and can request maps using work addresses. This feature is disabled by the code’s default configuration, but configuration can change it.</li>
+        <li><strong>Azure Blob Storage:</strong> an optional troubleshooting/export feature can upload diagnostic logs and queued API requests. Those records can contain request details and work or account information. The code selects Azure Blob Storage for this export path. The App also includes a Firebase Storage uploader, but the reviewed configuration does not select it as the active uploader.</li>
+        <li><strong>Expo Updates:</strong> the App checks for and downloads application updates through its update service.</li>
+      </ul>
+      <p>No advertising or ad-personalization functionality was identified in the code reviewed. The company must confirm whether it sells personal information or otherwise discloses it beyond the service purposes described here. Service providers, processing locations, and applicable contractual terms must also be confirmed by the app owner.</p>
+
+      <h2>Storage and retention</h2>
+      <p>The App stores information locally on the device to support authentication, offline work, and later synchronization. This can include access and refresh tokens, a remembered username, work records, photos or signatures attached to records, location samples, queued requests, and diagnostic logs. The App uses local persistent storage; the code does not establish that this storage is encrypted.</p>
+      <p>Signing out removes the locally stored authentication token and session-expiration value, but does not clear all local work records or the remembered username. A “Clear Local” option in the App removes the App’s local database and may delete work that has not synchronized. The Android application manifest permits application backup; whether App data is included depends on Android backup behavior and configuration.</p>
+      <p>The reviewed code does not define a general retention period for information held by the organization’s service, Firebase, or Azure. Local logs do not have a time-based deletion schedule. Queued requests have a configured 24-hour stale threshold, but cleanup occurs during retry processing, so this is not a guaranteed 24-hour deletion. The organization must specify and publish its actual retention schedule.</p>
+
+      <h2>Deletion and privacy requests</h2>
+      <p>The App provides sign-out, local-data clearing, and deletion of certain individual work records. These controls do not delete your account or guarantee deletion of information already synchronized to organizational or provider systems. No in-App account-deletion flow was identified in the reviewed code.</p>
+      <p>To request access, correction, or deletion of account or work information, contact your employer or business administrator and the privacy contact listed above. The responsible organization must confirm how requests are handled and any legal or operational retention exceptions.</p>
+
+      <h2>Security</h2>
+      <p>The App and its service providers use account and device identifiers to support the service. No security method can be guaranteed to be completely secure. The organization should review the App’s credential handling, local storage, diagnostic logging, cloud configuration, and access controls before publication.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy when the App, its services, or applicable requirements change. The “Last updated” date will be revised when a material change is made. Please contact the responsible organization if you have questions.</p>
+
+      <footer>
+        <p>This policy is specific to the TegosSuite Driver Android App. Service configuration can vary by organization and release.</p>
+      </footer>
+    </main>
+  </body>
+</html>
